@@ -1,0 +1,2 @@
+This file contains words:
+"hate", "late", "mate", "date","gate", "state", "fate", "al", "alabama", "algore", "alta", "alma", "alpha", "alex"

@@ -1,0 +1,73 @@
+<!--
+Title:
+Assignment 13 - Contact Management System
+
+Description:
+Serializable Contact List
+
+Points:
+100
+
+Instructions(HTML):
+-->
+
+<style type="text/css">
+h1 {font:14px verdana; font-weight:bold}
+code {font:14px courier new; font-weight:bold}
+div {font:12px verdana}
+</style>
+
+<div>
+<h1>Problem</h1>
+<p>Create a contact management system.</p>
+<h1>Specification</h1>
+<ul>
+	<li>Create super class <code>Contact</code> with subclasses <code>BusinessContact</code>,
+		<code>FamilyContact</code> and <code>FriendContact</code></li>
+	<li>Define appropriate fields and methods for each class.</li>
+	<li>Take advantage of polymorphic method behavior when searching, displaying, reading/writing the contact list.</li>
+	<li>Use regular expressions to valid the format for <code>phoneNumber</code>, <code>emailAddress</code> and other fields as appropriate.</li>
+	<li>Implement the exception handling mechanism with custom exception classes.</li>
+	<li>Implement unit testing using JUnit:</li>
+		<ul>
+			<li>Create a <b>unit test</b> for each class composed of several <b>test cases</b> each designed to test the
+				response of a single method to a specific set of inputs.</li>
+			<li>Create a <b>test suite</b> that is a collection of all unit tests.</li>
+			<li>Use a <b>test runner</b> (JUnit) to run the tests and report results.</li>
+		</ul>
+		<p><b>NOTEs</b>:
+		<ol>
+    	<li>View this <a href="http://www.cs.slcc.edu/~bairdro/CS1410/PPT/14-junit.ppt" 
+				target="_blank">PPT</a> for a quick overview of unit testing.</li>
+    	<li>Download <a href="http://www.cs.slcc.edu/~bairdro/CS1410/SourceCode/Subscription.zip"
+				target="_blank">Subscription.zip</a> for an example implementation.</li>
+    	<li><a href="http://eclipsetutorial.sourceforge.net/totalbeginner.html"
+				target="_blank">Click here</a> to view a series of Eclipse tutorials that implement unit testing.</li>
+		</ol></p>
+	<li>Store the records in memory in an <code>ArrayList</code>.</li>
+	<li>Store the records on disk in the binary file <code>contacts.ser</code>.</li>
+	<li>Automatically read the records from disk into memory when the program runs.</li>
+	<li>Automatically write the records to disk when the program ends.</li>
+	<li>Create an appropriate GUI that allows for operations such as:</li>
+	<ul>
+		<li>Add</li>
+		<li>Delete</li>
+		<li>Search</li>
+		<li>Display</li>
+	</ul>
+	<li>Use the javadoc utility to create documentation for all the <code>.java</code> files in your project. Include a feature in the GUI that
+    displays the documentation.</li>
+  <li>Make sure your source code conforms to the <a href="http://www.cs.slcc.edu/style-guide.shtml" 
+		target="_blank">CS Department Style Guide</a>, to include method header comments.</li>
+</ul>
+
+  <h1>Admin</h1>
+    <ul>
+      <li>Grading</li>
+			<p>A <a href="http://www.cs.slcc.edu/~bairdro/CS1410/PDF/CS1410_Written_Rubric.pdf"
+				target="_blank">Written Communications Scoring Rubric</a> will be used to evaluate your application.</p>
+      <li>Submission</li>
+      <p>Submit an executable <code>.jar</code> file that also includes all your <code>.java</code> source code files and
+          your documentation <code>.html</code> (javadoc) files.</p>
+    </ul>
+</div>
